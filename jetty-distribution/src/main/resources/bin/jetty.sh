@@ -2,6 +2,18 @@
 #
 # Startup script for jetty under *nix systems (it works under NT/cygwin too).
 
+### BEGIN INIT INFO
+# Provides:          jetty
+# Required-Start:    $local_fs $remote_fs $network
+# Required-Stop:     $local_fs $remote_fs $network
+# Should-Start:      $named
+# Should-Stop:       $named
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start Jetty
+# Description:       Start Jetty HTTP server and servlet container.
+### END INIT INFO
+
 # To get the service to restart correctly on reboot, uncomment below (3 lines):
 # ========================
 # chkconfig: 3 99 99
