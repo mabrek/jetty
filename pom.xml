@@ -18,8 +18,8 @@
     <javax-servlet-jsp-version>2.1.v20100127</javax-servlet-jsp-version>
     <javax-transaction-version>1.1.1</javax-transaction-version>
     <jetty.url>http://www.eclipse.org/jetty</jetty.url>
-    <junit-version>3.8.2</junit-version>
-    <junit4-version>4.8.1</junit4-version>
+    <junit-version>4.13.1</junit-version>
+    <junit4-version>4.13.1</junit4-version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <slf4j-version>1.5.10</slf4j-version>
     <build-support-version>1.0</build-support-version>
